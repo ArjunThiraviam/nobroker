@@ -56,5 +56,3 @@ function dragDrop()
     }, false);
 
 }   
-
-dragDrop();
