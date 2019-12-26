@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px 30px;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.boards {
+    background-color: #ebecf0;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    width: 30%;
+    height: 100%;
+}
+
+.boards h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.boards input {
+    margin: 5px auto 10px;
+    min-width: 90%;
+    max-width: 300px;
+    min-height: 20px;
+    padding: 10px;
+
+    border-radius: 3px;
+}
+
+.boards .cards {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    cursor: pointer;
+    display: block;
+    margin: 5px auto 8px;
+    min-width: 90%;
+    max-width: 300px;
+    min-height: 20px;
+    padding: 10px;
+    min-height: 40px;
+}
+
+.cards span {
+    float: right;
+}
+
+.cards span .fa {
+    padding: 5px;
+}
+
+.fa-edit {
+    color: blue
+}
+
+.fa-trash {
+    color: red;
+}
+
+button {
+    background-color: #5aac44;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+    margin: 5px auto 20px;
+    float: left;
+    margin-left: 5%;
+}
+
+li {
+    list-style: none;
+}
+
+
+ul {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trello Clone Nobroker Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <h1>Trello Clone Nobroker Test</h1>
+    <div class="main-container">
+        <div class="boards todo">
+            <h2>To-do</h2>
+            <ul class="card-container"  id="todo-board" data-draggable="target" >
+                <li class="cards draggable" data-draggable="item" >Todo  1 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+                <li class="cards draggable" data-draggable="item" >Todo  2 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+                <li class="cards draggable" data-draggable="item" >Todo  3 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+                <li class="cards draggable" data-draggable="item" >Todo  4 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+            </ul>
+            <input id="add-todo" placeholder="To do">
+            <button id="add-todo-btn">Submit Add todo</button>
+        </div>
+
+        <div class="boards inprogress">
+            <h2>In Progress</h2>
+            <ul class="card-container" data-draggable="target">
+                    <div class="cards draggable" data-draggable="item">In Progress  1 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></div>
+                    <div class="cards draggable" data-draggable="item">In Progress  2 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></div>
+                    <div class="cards draggable" data-draggable="item">In Progress  3 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></div>        
+            </ul>
+            <input id="in-progress"  placeholder="In Progress">
+            <button id="add-todo-btn">Submit In Progress</button>
+        </div>
+
+        <div class="boards done">
+            <h2>Done</h2>
+            <ul class="card-container"  id="todo-board" data-draggable="target" >
+                <li class="cards draggable" data-draggable="item">Done  1 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+                <li class="cards draggable" data-draggable="item">Done  2 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+                <li class="cards draggable" data-draggable="item">Done  3 <span> <i class="fa fa-edit"></i> <i class="fa fa-trash"></i></span></li>
+            </ul>
+            
+
+            <input id="card-edit-title"  placeholder="Done">
+            <button id="add-todo-btn">Submit Done</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+<script src="/Nobroker/_modules/createtask.js"></script>
+<script src="/Nobroker/_modules/delete.js"></script>
+<script src="/Nobroker/_modules/drag-drop.js"></script>
+
+<script>
+console.log("Edit Functionality is to be done");
+console.log("Drop at end of the board");
+</script>
+</body>
+</html>
